@@ -19,9 +19,9 @@ import org.testcontainers.containers.PostgreSQLContainer;
 import org.testcontainers.containers.RabbitMQContainer;
 import org.testcontainers.junit.jupiter.Container;
 import org.testcontainers.junit.jupiter.Testcontainers;
-import com.breudes.notificaentregas.event.NotificacaoEmail;
-import com.breudes.notificaentregas.messaging.NotificacaoEmailListener;
-import com.breudes.notificaentregas.service.NotificacaoEmailService;
+import com.breudes.notificaentregas.core.domain.NotificacaoEmail;
+import com.breudes.notificaentregas.infrastructure.messaging.NotificacaoEmailListener;
+import com.breudes.notificaentregas.infrastructure.service.NotificacaoEmailService;
 
 import java.nio.charset.StandardCharsets;
 import java.util.concurrent.CountDownLatch;

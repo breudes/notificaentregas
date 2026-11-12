@@ -1,4 +1,4 @@
-package com.breudes.notificaentregas.configuration;
+package com.breudes.notificaentregas.infrastructure.messaging;
 
 import org.springframework.amqp.core.Binding;
 import org.springframework.amqp.core.BindingBuilder;

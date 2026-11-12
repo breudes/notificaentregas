@@ -1,4 +1,4 @@
-package com.breudes.notificaentregas.event;
+package com.breudes.notificaentregas.core.domain;
 
 public record NotificacaoEmail(
         Long encomendaId,

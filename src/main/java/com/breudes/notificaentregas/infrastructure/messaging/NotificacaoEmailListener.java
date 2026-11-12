@@ -1,7 +1,7 @@
-package com.breudes.notificaentregas.messaging;
+package com.breudes.notificaentregas.infrastructure.messaging;
 
-import com.breudes.notificaentregas.event.NotificacaoEmail;
-import com.breudes.notificaentregas.service.NotificacaoEmailService;
+import com.breudes.notificaentregas.core.domain.NotificacaoEmail;
+import com.breudes.notificaentregas.infrastructure.service.NotificacaoEmailService;
 import org.springframework.amqp.AmqpRejectAndDontRequeueException;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;

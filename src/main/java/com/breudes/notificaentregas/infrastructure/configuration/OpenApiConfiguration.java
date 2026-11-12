@@ -1,4 +1,4 @@
-package com.breudes.notificaentregas.configuration;
+package com.breudes.notificaentregas.infrastructure.configuration;
 
 import io.swagger.v3.oas.models.OpenAPI;
 import io.swagger.v3.oas.models.info.Info;

@@ -1,6 +1,6 @@
-package com.breudes.notificaentregas.service;
+package com.breudes.notificaentregas.infrastructure.service;
 
-import com.breudes.notificaentregas.event.NotificacaoEmail;
+import com.breudes.notificaentregas.core.domain.NotificacaoEmail;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.mail.SimpleMailMessage;
 import org.springframework.mail.javamail.JavaMailSender;

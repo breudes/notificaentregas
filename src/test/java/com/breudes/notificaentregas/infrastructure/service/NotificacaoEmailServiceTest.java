@@ -1,6 +1,7 @@
-package com.breudes.notificaentregas.service;
+package com.breudes.notificaentregas.infrastructure.service;
 
-import com.breudes.notificaentregas.event.NotificacaoEmail;
+import com.breudes.notificaentregas.core.domain.NotificacaoEmail;
+import com.breudes.notificaentregas.infrastructure.service.NotificacaoEmailService;
 import org.junit.jupiter.api.Test;
 import org.springframework.mail.SimpleMailMessage;
 import org.springframework.mail.javamail.JavaMailSender;
